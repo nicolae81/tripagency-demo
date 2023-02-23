@@ -1,6 +1,6 @@
 import Title from './Title';
 import { tours } from '../data';
-const Tours = () => {
+const Tour = () => {
   return (
     <section className="section" id="tours">
       <Title title='featured' subTitle='tours' />
@@ -37,4 +37,4 @@ const Tours = () => {
   );
 };
 
-export default Tours
+export default Tour
